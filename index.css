@@ -1,0 +1,227 @@
+  body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.head{
+    background: transparent;
+    height: 70px;
+}
+.head .fixed_logo{
+    display: none;
+
+}
+
+#carousel{
+    background: cover/center ;
+    background-image: url('../images/mainvisuals_01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    margin: 0px;
+    width: 100%;
+    height: 632px;
+    padding-top: 215px;
+    padding-left: 173px;
+}
+
+.navbarHeader{
+    background-color: white ;
+    color:black;
+}
+
+.navbarHeader .top_logo{
+    display: none;
+}
+.navbarHeader .fixed_logo{
+    display: block;
+}
+.navbarHeader .nav-item{
+    color:black;
+}
+nav{
+    width: 95%;
+    margin: 25px 40px 0px 40px;
+    height: 40px; 
+    padding: 0px;
+    position:fixed;
+    top:0;
+    left: 0;
+}
+
+.navbar-brand{
+    max-width: 78px;
+    height: auto;
+}
+
+.navbar-nav{
+    text-align: left;
+}
+
+.nav-item{
+    font-weight: bold;
+    font-size: 13px;
+    font-style: Noto Sans JP;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+}
+
+.nav-item:hover{
+    color: #FFFFFF;
+}
+.sec-pad {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+.nsj-r, p, .bottom-text span, dd, li.cat-item a, body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    
+}
+.btn-white {
+    background: #fff;
+    color: #000;
+    justify-content: center; 
+    
+    margin: 0 auto;
+    margin-top: 50px;
+    z-index: 1;
+    border: 2px solid #fff;
+    border-top-color: rgb(255, 255, 255);
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-right-color: rgb(255, 255, 255);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-left-color: rgb(255, 255, 255);
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+} 
+.btn {
+    width: 384px;
+    max-width: 100%;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  
+}
+
+#btn-white{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+}
+.overlay-text {
+    position: absolute !important;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img, svg {
+    vertical-align: middle;
+}
+#btn{
+    background: #00AFCC 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+    width: 117px;
+    text-align: center;
+
+}
+
+#carouselHeading{
+    font: normal normal normal 54px/61px A P-OTF A1Gothic Std;
+    letter-spacing: -2.7px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 10px #00000029;
+    opacity: 1;
+}
+#greetbtn{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    color: #000;
+    width: 384px;
+    height: 60px;
+    opacity: 1;
+    border:none;
+    font-weight:bolder;
+}
+
+#carouselbtn{
+    background: #00AFCC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #00AFCC;
+    border-radius: 100px;
+    width: 384px;
+    height: 60px;
+    opacity: 1;
+    border:none;
+    font: normal normal bold 14px/20px Noto Sans JP;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+#greet{
+    background-image: url("../images/greeting_pc.jpg");
+    background-size: cover;
+    background-position:top left;
+    position: relative;
+    text-align: left;
+    letter-spacing: 0.64px;
+    color: #FFFFFF;
+    opacity: 1;
+
+} 
+#content1 h6, #content1 h3{
+    font: normal normal 900 14px/37px Noto Sans JP;
+    letter-spacing: 0.56px;
+    color: #232323;
+}
+#content1 h3{
+   
+    font-weight: bolder;
+    font-size: 35px;
+    
+}
+#content1 .sm_header{
+    font: normal normal 200 14px/37px Montserrat;
+    letter-spacing: 0.56px;
+    color: #676767;
+}
+#content1 .card-title{
+    font-weight: bold;
+}
+#content1  .card-text{
+    font: normal normal normal 14px/25px Noto Sans JP;
+    letter-spacing: 0.56px;
+    color: #232323;
+}
